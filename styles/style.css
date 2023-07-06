@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 .nav_container{
@@ -33,4 +34,39 @@
 } 
 .navRight li a:hover{
     color: rgb(42, 165, 128);
+}
+
+.main_sec_container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../images/background.png"), linear-gradient(45deg, #725b5b, #000);
+    color: white;
+}
+
+.bannerImg{
+    height: 320px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.desc{
+    margin: 10px auto;
+}
+.btn{
+    background-color: rgba(242, 3, 3, 0.942);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(42, 165, 128);
 }
