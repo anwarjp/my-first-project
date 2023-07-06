@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(77, 75, 75);
+    color: white;
+} 
+
+.navLeft img{
+    width: 120px;
+    height: 40px;
+    padding: 10px ;
+}
+
+.navRight{
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    
+}
+.navRight li a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 7px 10px;
+    font-size: 18px;
+    transition: 0.5s;
+} 
+.navRight li a:hover{
+    color: rgb(42, 165, 128);
+}
