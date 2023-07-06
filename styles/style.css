@@ -78,6 +78,36 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+}
+.services_sec{
+    background-image: url("../images/background.png"), linear-gradient(45deg, #725b5b, #000);
+    color: white;
+    padding: 20px 0px;
+}
+.services_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
     
-
+}
+.box{
+    width: 200px;
+    background: #090909;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 20px grey;
+}
+.box img{
+    width: 120px;
+    height: 120px;
+}
+.box a{
+    color: white;
+    font-weight: bolder;
+}
+.box a:hover{
+    color: rgb(42, 165, 128);
 }
