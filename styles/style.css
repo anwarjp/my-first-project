@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    list-style: none;
 }
 
 .nav_container{
@@ -12,7 +13,7 @@
     color: white;
 } 
 
-.navLeft img{
+.navLeftImg{
     width: 120px;
     height: 40px;
     padding: 10px ;
@@ -56,6 +57,7 @@
 
 .desc{
     margin: 10px auto;
+    text-align: justify;
 }
 .btn{
     background-color: rgba(242, 3, 3, 0.942);
@@ -110,4 +112,32 @@
 }
 .box a:hover{
     color: rgb(42, 165, 128);
+}
+.footer_container{
+    padding: 20px;
+    background-color: #000;
+    color: aliceblue;
+}
+.footer_container a{
+    display: block;
+    color: aliceblue;
+    margin-top: 10px;
+}
+.footer_container a:hover{
+    color: rgb(42, 165, 128);
+}
+.box4{
+    width: 220px;
+    text-align: justify;
+}
+.footer_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerBottom{
+    text-align: center;
+}
+.bottom_hr{
+    margin: 40px 50px 20px 50px;
 }
